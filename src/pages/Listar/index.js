@@ -1,25 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
 import { estilo } from '../../../Style';
+import List from './componetes/list-componente';
 
 export default function Listar() {
   return (
     <View style={estilo.container}>
-      <Text style={estilo.text}>Listar!</Text>
+        <List/>
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text:{
-    fontSize: 25,
-    fontWeight: 'bold',
-  },
-});

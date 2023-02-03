@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import {Entypo, Feather, AntDesign} from '@expo/vector-icons';
+import {Entypo, AntDesign} from '@expo/vector-icons';
 
 import Home from './pages/Home';
 import Cadastrar from './pages/Cadastrar';
